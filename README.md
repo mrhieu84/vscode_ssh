@@ -67,13 +67,12 @@ ssh -i sshkey user@server_ip
 ### In VSCode
 
 1. Install the **SFTP** extension in VSCode.
-[<img src="[path/to/image.png](https://tech.nhdesign.app/forum/image/20250416091333048_53.png)">](SFTP Extension)
+   
+   ![SFTP Extension](/forum/image/20250416091333048_53.png)
 
+2. Create a `.vscode` folder in your project directory.
 
-
-1. Create a `.vscode` folder in your project directory.
-
-2. Inside `.vscode`, create an `sftp.json` configuration file with the following content:
+3. Inside `.vscode`, create an `sftp.json` configuration file with the following content:
 
 ```json
 {
@@ -95,11 +94,11 @@ ssh -i sshkey user@server_ip
 
 5. Now, go to the **SFTP** tab and click **Open SSH**.
 
-   ![Open SSH](https://tech.nhdesign.app/forum/image/20250416092606669_43.png)
+   ![Open SSH](/forum/image/20250416092606669_43.png)
 
 6. After entering the password for the private key, you will be connected to the server.
 
-   ![Connected to Server](https://tech.nhdesign.app/forum/image/20250416092923555_44.png)
+   ![Connected to Server](/forum/image/20250416092923555_44.png)
 
 ## Synchronize Files Between Server and Client
 
@@ -110,18 +109,14 @@ You can now synchronize files between the server and the client using the **Down
 Click the **Download** button to download the file from the server. You will see the file downloaded to your local client.
 
 
-![image.png](https://tech.nhdesign.app/forum/image/20250416094706874_33.png)
+![image.png](/forum/image/20250416094706874_33.png)
 
  
 
 ### Upload a File
 
-  ![Download File](https://tech.nhdesign.app/forum/image/20250416093201940_25.png)
+  ![Download File](/forum/image/20250416093201940_25.png)
   
 Click the **Upload** button to upload a file from your client to the server.
 
-   ![Upload File](https://tech.nhdesign.app/forum/image/20250416093239971_52.png)
-
-
-
-check https://tech.nhdesign.app/article/detail/2510600042205185
+   ![Upload File](/forum/image/20250416093239971_52.png)
