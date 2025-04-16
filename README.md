@@ -67,12 +67,13 @@ ssh -i sshkey user@server_ip
 ### In VSCode
 
 1. Install the **SFTP** extension in VSCode.
-   
-   ![SFTP Extension](https://tech.nhdesign.app/forum/image/20250416091333048_53.png)
+[<img src="[path/to/image.png](https://tech.nhdesign.app/forum/image/20250416091333048_53.png)">](SFTP Extension)
 
-2. Create a `.vscode` folder in your project directory.
 
-3. Inside `.vscode`, create an `sftp.json` configuration file with the following content:
+
+1. Create a `.vscode` folder in your project directory.
+
+2. Inside `.vscode`, create an `sftp.json` configuration file with the following content:
 
 ```json
 {
