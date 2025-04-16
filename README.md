@@ -1,4 +1,4 @@
-
+link https://tech.nhdesign.app/article/detail/2510600042205185
 
 ## Check if SSH is Installed on Ubuntu
 
